@@ -5,7 +5,7 @@ from CYK import Parser
 
 if __name__ == '__main__':
     while True:
-        print('Enter a CNF grammar G followed by an input word w. Terminals should be lowercase and nonterminals uppercase. Whitespace does not matter.\n')
+        print('Enter a CNF grammar G followed by an input word w. The starting left-hand side should use the letter \'S\' for the nonterminal letter. Terminals should be lowercase and nonterminals uppercase. Whitespace does not matter.\n')
 
         print('Examples:')
         print('G = S -> AB|BC, A -> BA|a, B -> CC|b, C -> AB|a')
